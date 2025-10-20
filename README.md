@@ -9,3 +9,6 @@ HTML, CSS, JavaScript
 - Real-time earning display
 - Gold drop animation when you earn whole RM 💰
 - Theme store (coming soon!)
+  
+### Demo 
+👉 [Live on GitHub Pages] https://reaganhoo.github.io/work_motivation_timer/
