@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Work Motivation Timer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Work Motivation Timer</h1>
+
+    <div class="inputs">
+      <input type="number" id="salary" placeholder="Monthly Salary (RM)" />
+      <input type="number" id="hours" placeholder="Working Hours / Day" />
+      <input type="number" id="days" placeholder="Working Days / Week" />
+      <button id="startBtn">Start Work</button>
+      <button id="stopBtn">Stop</button>
+    </div>
+
+    <div id="timerDisplay">--:--:--</div>
+    <div id="earningDisplay">Earning: RM <span id="earning">0.00</span></div>
+
+    <div id="themeStoreBtn">🎨 Open Theme Store</div>
+  </div>
+
+  <div id="goldContainer"></div>
+
+  <!-- Theme store modal -->
+  <div id="themeModal" class="hidden">
+    <div class="theme-modal-content">
+      <h2>Theme Store 💎</h2>
+      <div class="themes">
+        <div class="theme" data-theme="default">Default</div>
+        <div class="theme" data-theme="sunset">Sunset 🌅</div>
+        <div class="theme" data-theme="galaxy">Galaxy 🌌</div>
+        <div class="theme locked">Golden Room 🔒</div>
+      </div>
+      <button id="closeTheme">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
